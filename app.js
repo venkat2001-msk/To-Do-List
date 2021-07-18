@@ -3,7 +3,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const _ = require("lodash");
+const _ = require("lodash"); //library to convert any case to kebab case, uppercase to lowercase(string fns)
 
 const app = express();
 
